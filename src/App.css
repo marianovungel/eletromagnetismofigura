@@ -1,38 +1,72 @@
-.App {
+.Appimg {
+  margin: 0;
+}
+menu{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid #9999;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  text-align: center;
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebarContent{
+  width: 100%;
+  display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  flex: 2;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  background-color: #999;
+  padding: 0;
+}
+li{
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px dashed #000;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(0.80);
+}
+li:hover{
+  color: rgb(88, 88, 11);
+  font-size: 15pt;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 3s;
+}
+
+.sidebarImg{
+  flex: 10;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.divContentImg{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgAling{
+  width: 100%;
+  margin: 100px auto 0px auto;
+}
+.imgMargin{
+  margin-right: 90px;
 }
